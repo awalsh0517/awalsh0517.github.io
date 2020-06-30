@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-image: linear-gradient(45deg, #50a0bf 0%, #e4efe9 100%);  
+  grid-template-rows: 1fr 1fr;
+}
+.common {
+  font-weight: 600;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+.gridCommon {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.textSize {
+  font-size: 16px;
+}
+
+img {
+  height: 60px;
+  width: 60px;
+  margin-top: 5px;
+  border-radius: 50%;
+}
+
+.hr {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(102, 196, 217, 0), rgba(80, 160, 191, 0.75), rgba(102, 196, 217, 0));
+}
+
+.header {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 3rem;
+  color: #151926;
+}
+
+.cover {
+  display: grid;
+  height: 15rem;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 4rem;}
+
+.about-me-info {
+  display: grid;
+  grid-template-rows: 5fr;
+  grid-template-columns: 1fr;
+}
+
+.about-me-header {
+  display: grid;
+  grid-row: 1/2;
+  align-items: center;
+  height: 5rem;
+}
+
+#hr1 {
+  display: grid;
+  grid-row: 2/3;
+}
+
+.sect1 {
+  grid-row: 3/4;
+}
+
+.what-i-do {
+  display: grid;
+  grid-row: 4/5;
+  height: 5rem;
+}
+
+#hr2 {
+  display: grid;
+  grid-row: 5/6;
+}
+
+.sect2 {
+  grid-row: 6/7;
+}
+
+.skills {
+  display: grid;
+  height: 9rem;
+  margin: 10% 40%;
+  font-weight: 500;
+}
+
+li {
+  margin: 0 0 7px 0;
+  list-style-type: none;
+
+}
+
+.UI-project {
+  grid-row: 7/8;
+  height: 2rem;
+  margin-top: 30px;
+}
+
+#hr3 {
+  display: grid;
+  grid-row: 8/9;
+  margin-top: 20px;
+}
+
+#sect3 {
+  display: grid;
+  grid-row:9/10
+}
+
+#hr4 {
+  display: grid;
+  grid-row: 10/11;
+  margin-bottom: 20px;
+}
+
+.contact2 {
+  display: grid;
+  grid-row:11/12;
+  height: 4rem;
+}
+
+.connect {
+  display: grid;
+  grid-row: 12/13;
+  height: 7rem;
+  margin: 3% 10%;
+  font-weight: 500;
+}
+
+.contactLink {
+  font-size: 24px;
+}
+
+.footer {
+  display: grid;
+  background-color: #50a0bf;
+  font-size: 12px;
+  text-align: right;
+  margin-top: 70px;
+}
+
+#contact-statment {
+  display: grid;
+  font-weight: 500;
+  height: 6rem;
+  margin: 10% 10% 5% 10%;
+}
+
+.email {
+  display: grid;
+  height: 4rem;
+  font-weight: 500;
+}
+
+#send-mail {
+  position: relative;
+  margin: 1rem auto;
+  color: #151926;
+  border-color: rgba(21, 25, 38, .25);
+  padding: 1rem 2.5rem;
+  font-weight: 600;
+  background-color: rgba(80, 160, 191, .25);
+  font-size: 22px;
+}
+
+.button {
+  border: 1px solid transparent;
+  display: block;
+  background-color: #50a0bf;
+  border-radius: 12px;
+}
+
+.social-links {
+  display: grid;
+  height: 9rem;
+  text-align: center;
+  align-items: center;
+}
+
+.linkSpace {
+  margin: 20px;
+  font-size: 22px;
+}
+
+.workExample {
+  display: grid;
+  height: 15rem;
+  margin: auto 10%;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) {
+  .common {
+    font-size: 24px;
+  }
+
+  .textSize {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1281px) {
+  .cover {
+    font-size: 36px;
+    height: 26rem;
+  }
+
+  .footer {
+    margin-top: 100px;
+    height: 25px;
+    font-size: 16px;
+  }
+
+  .header {
+    height: 4rem;
+  }
+
+  .social-links {
+    font-size: 20px;
+  }
+  
+  .contactDesktop {
+    height: 4rem;
+  }
+}
