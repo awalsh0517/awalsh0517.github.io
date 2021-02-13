@@ -3,10 +3,9 @@
   padding: 0;
 }
 .background-image {
-  background-image: url("../images/background-image-half.png");
+  background-image: url("../images/background-image-400.png");
   background-size: cover;
-  background-position: center;
-  /* height: 512px; */
+  background-position: left;
   padding-top: 30px;
   background-repeat: no-repeat;
 }
@@ -62,6 +61,7 @@ img {
   font-weight: 700;
   line-height: 4rem;
   color: white;
+  
 }
 
 .about-me-info {
