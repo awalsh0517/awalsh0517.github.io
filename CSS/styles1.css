@@ -61,7 +61,7 @@ img {
   font-weight: 700;
   line-height: 4rem;
   color: white;
-  
+  text-shadow: 1px 1px black;
 }
 
 .about-me-info {
